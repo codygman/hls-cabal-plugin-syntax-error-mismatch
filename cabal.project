@@ -1,0 +1,5 @@
+packages:
+  ./
+
+package hithere
+  tests: True

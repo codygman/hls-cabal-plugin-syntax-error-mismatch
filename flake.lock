@@ -1,0 +1,56 @@
+{
+  "nodes": {
+    "amazonka": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-MhCqXHDQkJyFKvv/oANh5zeQ57wXrtJFCXSwrh5yf8U=",
+        "type": "tarball",
+        "url": "https://github.com/brendanhay/amazonka/archive/0d70474d888c5e5a43417ac9f7b408e7890ff853.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/brendanhay/amazonka/archive/0d70474d888c5e5a43417ac9f7b408e7890ff853.tar.gz"
+      }
+    },
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1644229661,
+        "narHash": "sha256-1YdnJAsNy69bpcjuoKdOYQX0YxZBiCYZo4Twxerqv7k=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "3cecb5b042f7f209c56ffd8371b2711a290ec797",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1671007632,
+        "narHash": "sha256-1uxNTBOa0SMypJKOWeUqrz2VfmwQ1hVgWckPdgDNip4=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b9a0cd40ede905f554399f3f165895dccfd35f3b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "amazonka": "amazonka",
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
